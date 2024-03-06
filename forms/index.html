@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+    <form action="" method="">
+        <label for="Name">Name</label>
+        <input type="text" placeholder="John Doe" id="name" required>
+
+        <label for="date_of_birth">Date of Birth</label>
+        <input type="date" placeholder="" id="date_of_birth" required>
+
+        <fieldset>
+            <legend>Gender</legend>
+            <div>
+                <input type="radio" value="male" id="male" required name="gender">
+                <label for="male">Male</label>  
+            </div> 
+
+            <div>
+                <input type="radio" value="female" id="female" required name="gender">
+                <label for="female">Female</label>
+            </div>
+
+            <div>
+                <input type="radio" value="prefer_not_to say" id="none" required name="gender">
+                <label for="none">Prefer Not to Say</label>
+            </div>
+            </fieldset>
+
+        <label for="address">Address</label>
+        <input type="text" placeholder="Nairobi CBD, Nairobi" id="address" required>
+
+        <label for="telephone">Telephone</label>
+        <input type="text" placeholder="+254712345678" id="telephone" required>
+
+        <label for="email">Email</label>
+        <input type="email" placeholder="johndoe@gmail.com" id="email" required>
+
+        <label for="course">Course</label>
+        <input type="text" placeholder="BSc. Computer Science" id="course" required>
+
+        <div class="btns">
+            <button type="submit" class="reg_btn">Register</button>
+            <button class="cancel_btn">Cancel</button>
+        </div>
+ </form>
+</body>
+</html>

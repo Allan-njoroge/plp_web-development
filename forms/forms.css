@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+body{
+    background-color: #000435;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+form{
+    width: 50%;
+    display: grid;
+    background: lightgray;
+    padding: 20px 50px;
+    margin: 50px 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px 3px #000;
+}
+label{
+    margin: 20px 0 5px 20px;
+}
+input{
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+fieldset{
+    margin-top: 20px;
+    border-radius: 5px;
+    display: grid;
+    align-items: center;
+}
+fieldset legend{
+    margin-left: 20px;
+}
+fieldset div{
+    margin: 2px 0 2px 10px;
+}
+button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all ease-in-out .3s;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.1);
+}
+.btns{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+.reg_btn{
+    background: #90EE90;
+}
+.cancel_btn{
+    background: #FF474C;
+}
