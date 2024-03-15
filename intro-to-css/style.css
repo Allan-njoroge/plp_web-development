@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+header{
+    background: #000;
+    width: full;
+    display: flex; 
+}
+header h1{
+    font-weight: 200;
+    color: #fff;
+    padding: 20px;
+    margin: auto;
+}
+.introduction, .skills, .contact{
+    margin-top: 10px;
+    width: full;  
+    display: flex;  
+}
+.introduction div, .skills div{
+    padding: 50px;
+    background: burlywood;
+    margin: auto;
+    max-width: 1240px;
+}
+.skills h1, .contact h1{
+    font-weight: 200;
+    margin: 20px 0;
+    padding: 12px 24px;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    text-align: center;
+}
+
+.skills div{
+    width: full;
+    border-radius: 10px;
+    background: #000;
+    color: burlywood;
+}
+.skills ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 50px
+}
+.skills ul li{
+    padding: 12px 24px;
+    border-radius: 5px;
+    //box-shadow: 2px 2px 4px 2px burlywood;
+    transition: all ease-in-out .3s;
+    cursor: pointer;
+}
+.skills ul li:hover{
+    box-shadow: 0px 0px 4px 2px burlywood;
+    transform: scale(1.1);
+}
+
+.contact{
+    margin-bottom: 50px;
+}
+.contact_div{
+    background: #000;
+    border-radius: 10px;
+    width: full;
+    margin: auto;
+    margin-botton: 30px;
+}
+.contact_div p{
+    color: white;
+    padding: 0 100px
+}
+.contact_div p a{
+    text-align: left;
+    text-decoration: none;
+    color: #fff;
+}
+
+@media only screen and (max-width: 500px) {
+    .introduction{
+        width: 90%;
+        margin: 20px auto;
+        border-radius: 10px;
+    }
+    .contact_div p{
+        padding: 0 50px;
+    }
+}
